@@ -1,0 +1,4 @@
+-keep class com.smitronix.instamod.MainHook { *; }
+-keepclassmembers class com.smitronix.instamod.MainHook { *; }
+-keep class com.smitronix.instamod.hooks.** { *; }
+-keepclassmembers class com.smitronix.instamod.hooks.** { *; }

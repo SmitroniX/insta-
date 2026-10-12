@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="xposed_scope">
+        <item>com.instagram.android</item>
+    </string-array>
+    <color name="accent_insta">#FFE1306C</color>
+    <color name="bg_dark">#FF121212</color>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="surface_dark">#FF1E1E1E</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">InstaMod</string>
+    <string name="instructions_desc">1. Open LSPosed Manager\n2. Enable InstaMod\n3. Select Instagram in scope\n4. Force stop Instagram and reopen</string>
+    <string name="instructions_title">Setup &amp; Activation</string>
+    <string name="module_status">LSPosed / Xposed Module</string>
+    <string name="pref_floating_nav_desc">Transforms Instagram\'s docked navbar into an elevated floating island pill.</string>
+    <string name="pref_floating_nav_title">Floating Bottom Navigation Bar</string>
+    <string name="pref_posts_download_desc">Adds download button for feed photos, carousels, and videos.</string>
+    <string name="pref_posts_download_title">Posts &amp; Carousel Downloader</string>
+    <string name="pref_reels_download_desc">Injects a direct download button on the vertical Reels action panel.</string>
+    <string name="pref_reels_download_title">Reels Download Button</string>
+    <string name="pref_stories_download_desc">Adds an instant download action in the Stories overlay header.</string>
+    <string name="pref_stories_download_title">Stories Download Button</string>
+    <style name="Theme.InstaMod" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/accent_insta</item>
+        <item name="android:statusBarColor">@color/bg_dark</item>
+        <item name="android:navigationBarColor">@color/bg_dark</item>
+    </style>
+</resources>

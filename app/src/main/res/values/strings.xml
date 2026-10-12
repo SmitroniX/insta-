@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">InstaMod</string>
+    <string name="module_status">LSPosed / Xposed Module</string>
+    <string name="pref_floating_nav_title">Floating Bottom Navigation Bar</string>
+    <string name="pref_floating_nav_desc">Transforms Instagram\'s docked navbar into an elevated floating island pill.</string>
+    <string name="pref_reels_download_title">Reels Download Button</string>
+    <string name="pref_reels_download_desc">Injects a direct download button on the vertical Reels action panel.</string>
+    <string name="pref_stories_download_title">Stories Download Button</string>
+    <string name="pref_stories_download_desc">Adds an instant download action in the Stories overlay header.</string>
+    <string name="pref_posts_download_title">Posts &amp; Carousel Downloader</string>
+    <string name="pref_posts_download_desc">Adds download button for feed photos, carousels, and videos.</string>
+    <string name="instructions_title">Setup &amp; Activation</string>
+    <string name="instructions_desc">1. Open LSPosed Manager\n2. Enable InstaMod\n3. Select Instagram in scope\n4. Force stop Instagram and reopen</string>
+</resources>
